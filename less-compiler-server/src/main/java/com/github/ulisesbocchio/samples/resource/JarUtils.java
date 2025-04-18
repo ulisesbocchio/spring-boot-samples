@@ -16,9 +16,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 
-/**
- * @author Ulises Bocchio, Sergio.U.Bocchio@Disney.com (BOCCS002)
- */
 @Slf4j
 public class JarUtils {
     public static File getFile(Resource resource) {
