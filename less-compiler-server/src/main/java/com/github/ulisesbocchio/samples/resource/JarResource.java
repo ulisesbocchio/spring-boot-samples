@@ -9,9 +9,6 @@ import java.io.InputStream;
 import java.net.URI;
 import java.net.URL;
 
-/**
- * @author Ulises Bocchio, Sergio.U.Bocchio@Disney.com (BOCCS002)
- */
 public class JarResource implements Resource {
 
     private final Resource delegate;
