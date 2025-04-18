@@ -4,9 +4,6 @@ import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 
-/**
- * @author Ulises Bocchio, Sergio.U.Bocchio@Disney.com (BOCCS002)
- */
 public class JarResourceLoader implements ResourceLoader {
 
     private ResourceLoader delegate = new DefaultResourceLoader();
